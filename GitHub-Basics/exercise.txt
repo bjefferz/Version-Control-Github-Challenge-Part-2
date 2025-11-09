@@ -1,0 +1,11 @@
+1. Explain what the terminal is in your own words.
+2. What is the major difference between Git and GitHub?
+3.  What are the steps to fork a GitHub repository?
+
+1. Terminal is where users can execute a variety of absolute commands in a space likened to the brain of MacOS devices. Terminal houses all of the files on a MacOS device and has no GUI, so it lacks many features but allows for a more streamlined experience for more complex code to be executed.
+
+2. Git is the distributed local version control system on your device that allows the entire copy of code to be stored on a device and saved before pushing to GitHub, or the web based system that stores saved code. Put simply, Git is a local device tool for code and GitHub is the online storage facility.
+
+3. To fork a GitHub repository, you authorize your login, by using "gh auth login" in terminal.
+Next, you clone the fork to your device using "gh repo fork <repository_url> --clone" in terminal as the next step.
+Finally, you repo the fork in terminal using the exact url of your GitHub repo using "gh repo fork https://github.com/(url path to your repo) --clone"
